@@ -1,0 +1,114 @@
+/*----------------------------------------------------------------------
+ *  Copyright (c) 2022 Media24 (https://www.media24.com)
+ *  Onboarding is a trademark of Media24 (Pty) Ltd in South Africa. All rights reserved.
+ *----------------------------------------------------------------------*/
+
+@font-face {
+	font-family: "ProximaNova";
+	src: local("ProximaNova"),
+		url(./assets/font/proximanova-regular-webfont.woff) format("woff");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: ProximaNova;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+@media (min-width: 600px) {
+	/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #bfbfbf;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #2b353e;
+	}
+}
+@media (min-width: 801px) {
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #bfbfbf;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #2b353e;
+	}
+}
+
+@media (min-width: 1025px) {
+	/* big landscape tablets, laptops, and desktops */
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #bfbfbf;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #2b353e;
+	}
+}
+@media (min-width: 1281px) {
+	/* hi-res laptops and desktops */
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #bfbfbf;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #2b353e;
+	}
+}
