@@ -3,7 +3,6 @@
  *  App name is a trademark of Company Name(Pty) Ltd in South Africa. All rights reserved.
  *----------------------------------------------------------------------*/
 import Notification from "components/Notification/Notification";
-import "./homePage.scss";
 
 export default function HomePage() {
   return (
