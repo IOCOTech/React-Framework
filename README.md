@@ -111,6 +111,9 @@ ioco-react-framework
 ```
 
 ## Running tests
+```sh
+npm run test
+```
 
 ## Browser Support
 
